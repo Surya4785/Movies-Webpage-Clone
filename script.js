@@ -6,7 +6,6 @@ const main = document.getElementById('main')
 const form = document.getElementById('form')
 const search = document.getElementById('search')
 
-// Get initial movies
 getMovies(API_URL)
 
 async function getMovies(url) {
